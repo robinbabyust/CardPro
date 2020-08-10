@@ -6278,11 +6278,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CardPro UI\\CardPro.UI\\CardPro.UI.csproj",
+      "projectUniqueName": "E:\\CardPro\\CardPro\\CardPro UI\\CardPro.UI\\CardPro.UI.csproj",
       "projectName": "CardPro.UI",
-      "projectPath": "E:\\CardPro UI\\CardPro.UI\\CardPro.UI.csproj",
+      "projectPath": "E:\\CardPro\\CardPro\\CardPro UI\\CardPro.UI\\CardPro.UI.csproj",
       "packagesPath": "C:\\Users\\bibin joy\\.nuget\\packages\\",
-      "outputPath": "E:\\CardPro UI\\CardPro.UI\\obj\\",
+      "outputPath": "E:\\CardPro\\CardPro\\CardPro UI\\CardPro.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bibin joy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6298,8 +6298,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\CardPro UI\\CardPro.UI.Business\\CardPro.UI.Business.csproj": {
-              "projectPath": "E:\\CardPro UI\\CardPro.UI.Business\\CardPro.UI.Business.csproj"
+            "E:\\CardPro\\CardPro\\CardPro UI\\CardPro.UI.Business\\CardPro.UI.Business.csproj": {
+              "projectPath": "E:\\CardPro\\CardPro\\CardPro UI\\CardPro.UI.Business\\CardPro.UI.Business.csproj"
             }
           }
         }
