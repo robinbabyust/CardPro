@@ -1,3 +1,4 @@
+using CardPro.Attributes;
 using CardPro.Business.Interfaces;
 using CardPro.Business.Services;
 using CardPro.Data;
@@ -37,6 +38,9 @@ namespace CardPro
 
             // Services
             services.AddTransient<IEnquiryService, EnquiryService>();
+
+            // Attributes
+            services.AddScoped<TokenValidationAttribute>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

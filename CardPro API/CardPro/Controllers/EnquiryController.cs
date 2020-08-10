@@ -1,4 +1,5 @@
-﻿using CardPro.Business.Commands;
+﻿using CardPro.Attributes;
+using CardPro.Business.Commands;
 using CardPro.Business.Interfaces;
 using CardPro.Business.Responses;
 using Microsoft.AspNetCore.Mvc;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 namespace CardPro.Controllers
 {
     [Route("api/enquiry")]
+    [ServiceFilter(typeof(TokenValidationAttribute))]
     [ApiController]
     public class EnquiryController : ControllerBase
     {

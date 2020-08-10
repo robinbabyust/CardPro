@@ -30,7 +30,9 @@ namespace CardPro.UI.Business.Services
         {
             HttpClient client = _httpClientFactory.CreateClient();
             string url = $"{_cardProAPIConfiguration.APIUrl}enquiry";
+            string token = "CarPro Validation Token";
             client.DefaultRequestHeaders.Add("Accept", "application/json");
+            client.DefaultRequestHeaders.Add("Token", token);
 
             HttpContent content = new StringContent(JsonConvert.SerializeObject(enquiryCommand));
             content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");

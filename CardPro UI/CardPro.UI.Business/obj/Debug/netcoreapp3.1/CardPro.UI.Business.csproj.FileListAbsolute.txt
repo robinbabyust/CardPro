@@ -7,3 +7,12 @@ E:\RnWeb\CardPro.UI.Business\bin\Debug\netcoreapp3.1\CardPro.UI.Business.pdb
 E:\RnWeb\CardPro.UI.Business\obj\Debug\netcoreapp3.1\CardPro.UI.Business.dll
 E:\RnWeb\CardPro.UI.Business\obj\Debug\netcoreapp3.1\CardPro.UI.Business.pdb
 E:\RnWeb\CardPro.UI.Business\obj\Debug\netcoreapp3.1\CardPro.UI.Business.csprojAssemblyReference.cache
+E:\CardPro\CardPro\CardPro UI\CardPro.UI.Business\bin\Debug\netcoreapp3.1\CardPro.UI.Business.deps.json
+E:\CardPro\CardPro\CardPro UI\CardPro.UI.Business\bin\Debug\netcoreapp3.1\CardPro.UI.Business.dll
+E:\CardPro\CardPro\CardPro UI\CardPro.UI.Business\bin\Debug\netcoreapp3.1\CardPro.UI.Business.pdb
+E:\CardPro\CardPro\CardPro UI\CardPro.UI.Business\obj\Debug\netcoreapp3.1\CardPro.UI.Business.csprojAssemblyReference.cache
+E:\CardPro\CardPro\CardPro UI\CardPro.UI.Business\obj\Debug\netcoreapp3.1\CardPro.UI.Business.AssemblyInfoInputs.cache
+E:\CardPro\CardPro\CardPro UI\CardPro.UI.Business\obj\Debug\netcoreapp3.1\CardPro.UI.Business.AssemblyInfo.cs
+E:\CardPro\CardPro\CardPro UI\CardPro.UI.Business\obj\Debug\netcoreapp3.1\CardPro.UI.Business.csproj.CoreCompileInputs.cache
+E:\CardPro\CardPro\CardPro UI\CardPro.UI.Business\obj\Debug\netcoreapp3.1\CardPro.UI.Business.dll
+E:\CardPro\CardPro\CardPro UI\CardPro.UI.Business\obj\Debug\netcoreapp3.1\CardPro.UI.Business.pdb

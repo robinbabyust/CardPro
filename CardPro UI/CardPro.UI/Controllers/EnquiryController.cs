@@ -66,7 +66,7 @@ namespace CardPro.UI.Controllers
                 List<CardTypeResponse> cardTypes = await _cardEnquiryService.RegisterEnquiry(enquiryCommand);
                 CardTypeViewModel cardType = new CardTypeViewModel();
 
-                if (cardTypes.Count > 0)
+                if (cardTypes != null && cardTypes.Count > 0)
                 {
                     CardTypeResponse bestAvailableCard = cardTypes.OrderByDescending(x => x.CreditLimit).FirstOrDefault();
                     cardType.CardCategory = bestAvailableCard.CardCategory;
@@ -76,12 +76,11 @@ namespace CardPro.UI.Controllers
                     cardType.Image = bestAvailableCard.Image;
                 }
 
+                _logger.Log(LogLevel.Trace, "Successfully processed request", null);
                 return RedirectToAction(nameof(CardType), cardType);
 
-                _logger.Log(LogLevel.Trace, "Successfully processed request", null);
-
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 _logger.Log(LogLevel.Trace, ex.Message, ex);
 
@@ -102,7 +101,7 @@ namespace CardPro.UI.Controllers
 
                 return View(cardType);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 _logger.Log(LogLevel.Trace, ex.Message, ex);
 
