@@ -32,6 +32,7 @@ namespace CardPro.UI.Models
         /// </summary>
         [Required]
         [RegularExpression("^[0-9]*$", ErrorMessage = "Annual Income must be numeric")]
+        [Range(1, 1000000000, ErrorMessage = "Value must be between 1 to 1000000000")]
         [DisplayName("Annual Income")]
         public int AnnualIncome { get; set; }
     }

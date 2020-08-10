@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CardPro.Data.Migrations
 {
     [DbContext(typeof(CardProDbContext))]
-    [Migration("20200810043734_CreateDB")]
-    partial class CreateDB
+    [Migration("20200810124318_CreateDb")]
+    partial class CreateDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -148,6 +148,9 @@ namespace CardPro.Data.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<int>("AnnualIncome")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CardTypeId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("DateOfBirth")

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CardPro API\\CardPro.Tests\\CardPro.Tests.csproj": {}
+    "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Tests\\CardPro.Tests.csproj": {}
   },
   "projects": {
-    "E:\\CardPro API\\CardPro.Business\\CardPro.Business.csproj": {
+    "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\CardPro.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CardPro API\\CardPro.Business\\CardPro.Business.csproj",
+        "projectUniqueName": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\CardPro.Business.csproj",
         "projectName": "CardPro.Business",
-        "projectPath": "E:\\CardPro API\\CardPro.Business\\CardPro.Business.csproj",
+        "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\CardPro.Business.csproj",
         "packagesPath": "C:\\Users\\bibin joy\\.nuget\\packages\\",
-        "outputPath": "E:\\CardPro API\\CardPro.Business\\obj\\",
+        "outputPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bibin joy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\CardPro API\\CardPro.Data\\CardPro.Data.csproj": {
-                "projectPath": "E:\\CardPro API\\CardPro.Data\\CardPro.Data.csproj"
+              "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Data\\CardPro.Data.csproj": {
+                "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Data\\CardPro.Data.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "E:\\CardPro API\\CardPro.Data\\CardPro.Data.csproj": {
+    "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Data\\CardPro.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CardPro API\\CardPro.Data\\CardPro.Data.csproj",
+        "projectUniqueName": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Data\\CardPro.Data.csproj",
         "projectName": "CardPro.Data",
-        "projectPath": "E:\\CardPro API\\CardPro.Data\\CardPro.Data.csproj",
+        "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Data\\CardPro.Data.csproj",
         "packagesPath": "C:\\Users\\bibin joy\\.nuget\\packages\\",
-        "outputPath": "E:\\CardPro API\\CardPro.Data\\obj\\",
+        "outputPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bibin joy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -134,14 +134,14 @@
         }
       }
     },
-    "E:\\CardPro API\\CardPro.Tests\\CardPro.Tests.csproj": {
+    "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Tests\\CardPro.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CardPro API\\CardPro.Tests\\CardPro.Tests.csproj",
+        "projectUniqueName": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Tests\\CardPro.Tests.csproj",
         "projectName": "CardPro.Tests",
-        "projectPath": "E:\\CardPro API\\CardPro.Tests\\CardPro.Tests.csproj",
+        "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Tests\\CardPro.Tests.csproj",
         "packagesPath": "C:\\Users\\bibin joy\\.nuget\\packages\\",
-        "outputPath": "E:\\CardPro API\\CardPro.Tests\\obj\\",
+        "outputPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bibin joy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -157,8 +157,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\CardPro API\\CardPro.Business\\CardPro.Business.csproj": {
-                "projectPath": "E:\\CardPro API\\CardPro.Business\\CardPro.Business.csproj"
+              "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\CardPro.Business.csproj": {
+                "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\CardPro.Business.csproj"
               }
             }
           }

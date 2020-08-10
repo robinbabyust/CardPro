@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CardPro.Data.Migrations
 {
-    public partial class CreateDB : Migration
+    public partial class CreateDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -85,7 +85,8 @@ namespace CardPro.Data.Migrations
                     FirstName = table.Column<string>(nullable: false),
                     LastName = table.Column<string>(nullable: false),
                     DateOfBirth = table.Column<DateTime>(nullable: false),
-                    AnnualIncome = table.Column<int>(nullable: false)
+                    AnnualIncome = table.Column<int>(nullable: false),
+                    CardTypeId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

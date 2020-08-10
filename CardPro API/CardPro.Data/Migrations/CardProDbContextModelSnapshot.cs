@@ -148,6 +148,9 @@ namespace CardPro.Data.Migrations
                     b.Property<int>("AnnualIncome")
                         .HasColumnType("int");
 
+                    b.Property<int>("CardTypeId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2");
 

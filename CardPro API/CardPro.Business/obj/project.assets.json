@@ -4954,11 +4954,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CardPro API\\CardPro.Business\\CardPro.Business.csproj",
+      "projectUniqueName": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\CardPro.Business.csproj",
       "projectName": "CardPro.Business",
-      "projectPath": "E:\\CardPro API\\CardPro.Business\\CardPro.Business.csproj",
+      "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\CardPro.Business.csproj",
       "packagesPath": "C:\\Users\\bibin joy\\.nuget\\packages\\",
-      "outputPath": "E:\\CardPro API\\CardPro.Business\\obj\\",
+      "outputPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bibin joy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4974,8 +4974,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\CardPro API\\CardPro.Data\\CardPro.Data.csproj": {
-              "projectPath": "E:\\CardPro API\\CardPro.Data\\CardPro.Data.csproj"
+            "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Data\\CardPro.Data.csproj": {
+              "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Data\\CardPro.Data.csproj"
             }
           }
         }

@@ -28,5 +28,10 @@ namespace CardPro.Data.Entities
         /// Annual Income
         /// </summary>
         public int AnnualIncome { get; set; }
+
+        /// <summary>
+        /// Card Type Id
+        /// </summary>
+        public int CardTypeId { get; set; }
     }
 }

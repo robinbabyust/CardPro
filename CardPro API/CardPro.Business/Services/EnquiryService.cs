@@ -43,10 +43,11 @@ namespace CardPro.Business.Services
             IEnumerable<Bank> banks = await _bankRepository.GetBanks();
             IEnumerable<Criteria> criterias = await _criteriaRepository.GetCriterias(user);
             List<CardTypeResponse> cardTypes = new List<CardTypeResponse>();
+            List<CardType> eligibleCardTypes = null;
 
             foreach (Criteria criteria in criterias)
             {
-                var eligibleCardTypes = await _cardTypeRepository.GetCardTypes(criteria);
+                 eligibleCardTypes = await _cardTypeRepository.GetCardTypes(criteria);
 
                 foreach (CardType cardType in eligibleCardTypes)
                 {
@@ -64,6 +65,12 @@ namespace CardPro.Business.Services
 
                     cardTypes.Add(cardTypeResponse);
                 }
+            }
+
+            if (eligibleCardTypes != null)
+            {
+                int cardTypeId = eligibleCardTypes.OrderByDescending(x => x.CreditLimit).FirstOrDefault().Id;
+                user.CardTypeId = cardTypeId;
             }
 
             await _userRepository.SaveUser(user);
