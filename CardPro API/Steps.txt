@@ -1,0 +1,16 @@
+Projects
+CardPro
+CardPro.UI
+
+Database
+DbCardPro
+
+Steps to run applications
+
+1. Open CardPro and configure connection string as per local DB settings
+2. Open Nuget package manager console
+3. Select project CardPro.Data
+4. Execute script 'Update-database'
+5. Open DB insertion script with projects
+6. Execute DB scripts
+7. Run CardPro and CardPro.UI

@@ -1,0 +1,12 @@
+E:\Rn\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Business.deps.json
+E:\Rn\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Business.dll
+E:\Rn\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Business.pdb
+E:\Rn\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.AssemblyInfoInputs.cache
+E:\Rn\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.AssemblyInfo.cs
+E:\Rn\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.csproj.CoreCompileInputs.cache
+E:\Rn\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.dll
+E:\Rn\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.pdb
+E:\Rn\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Data.dll
+E:\Rn\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Data.pdb
+E:\Rn\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.csprojAssemblyReference.cache
+E:\Rn\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.csproj.CopyComplete

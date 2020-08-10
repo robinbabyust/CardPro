@@ -1,0 +1,11 @@
+E:\Rn\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.AssemblyInfoInputs.cache
+E:\Rn\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.AssemblyInfo.cs
+E:\Rn\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.csproj.CoreCompileInputs.cache
+E:\Rn\CardPro.Data\bin\Debug\netcoreapp3.1\CardPro.Data.deps.json
+E:\Rn\CardPro.Data\bin\Debug\netcoreapp3.1\CardPro.Data.dll
+E:\Rn\CardPro.Data\bin\Debug\netcoreapp3.1\CardPro.Data.runtimeconfig.json
+E:\Rn\CardPro.Data\bin\Debug\netcoreapp3.1\CardPro.Data.runtimeconfig.dev.json
+E:\Rn\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.genruntimeconfig.cache
+E:\Rn\CardPro.Data\bin\Debug\netcoreapp3.1\CardPro.Data.pdb
+E:\Rn\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.dll
+E:\Rn\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.pdb
