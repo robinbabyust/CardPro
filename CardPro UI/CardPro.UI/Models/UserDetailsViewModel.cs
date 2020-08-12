@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CardPro.UI.Models
 {
-    public class EnquiryViewModel
+    public class UserDetailsViewModel
     {
         /// <summary>
         /// First Name
@@ -25,6 +25,7 @@ namespace CardPro.UI.Models
         /// </summary>
         [Required]
         [DisplayName("Date Of Birth")]
+        [DataType(DataType.Date)]
         public DateTime DateOfBirth { get; set; }
 
         /// <summary>

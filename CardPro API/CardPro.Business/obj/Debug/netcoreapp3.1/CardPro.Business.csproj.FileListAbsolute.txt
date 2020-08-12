@@ -10,15 +10,3 @@ E:\Rn\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Data.dll
 E:\Rn\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Data.pdb
 E:\Rn\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.csprojAssemblyReference.cache
 E:\Rn\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.csproj.CopyComplete
-E:\CardPro\CardPro\CardPro API\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Business.deps.json
-E:\CardPro\CardPro\CardPro API\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Business.dll
-E:\CardPro\CardPro\CardPro API\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Business.pdb
-E:\CardPro\CardPro\CardPro API\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Data.dll
-E:\CardPro\CardPro\CardPro API\CardPro.Business\bin\Debug\netcoreapp3.1\CardPro.Data.pdb
-E:\CardPro\CardPro\CardPro API\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.csprojAssemblyReference.cache
-E:\CardPro\CardPro\CardPro API\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.AssemblyInfoInputs.cache
-E:\CardPro\CardPro\CardPro API\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.AssemblyInfo.cs
-E:\CardPro\CardPro\CardPro API\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.csproj.CoreCompileInputs.cache
-E:\CardPro\CardPro\CardPro API\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.csproj.CopyComplete
-E:\CardPro\CardPro\CardPro API\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.dll
-E:\CardPro\CardPro\CardPro API\CardPro.Business\obj\Debug\netcoreapp3.1\CardPro.Business.pdb

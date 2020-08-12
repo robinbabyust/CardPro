@@ -122,6 +122,11 @@ E:\RnWeb\CardPro.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 E:\RnWeb\CardPro.UI\bin\Debug\netcoreapp3.1\CardPro.UI.Business.dll
 E:\RnWeb\CardPro.UI\bin\Debug\netcoreapp3.1\CardPro.UI.Business.pdb
 E:\RnWeb\CardPro.UI\obj\Debug\netcoreapp3.1\Razor\Views\Enquiry\CardType.cshtml.g.cs
+E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CardPro\CardPro\CardPro UI\CardPro.UI\obj\Debug\netcoreapp3.1\CardPro.UI.TagHelpers.input.cache
+E:\CardPro\CardPro\CardPro UI\CardPro.UI\obj\Debug\netcoreapp3.1\CardPro.UI.TagHelpers.output.cache
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\appsettings.json
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -135,7 +140,6 @@ E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\CardPro.UI.View
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\CardPro.UI.Views.pdb
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
@@ -177,7 +181,6 @@ E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.Co
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
@@ -213,7 +216,6 @@ E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.Co
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\bin\Debug\netcoreapp3.1\CardPro.UI.Business.dll
@@ -225,8 +227,6 @@ E:\CardPro\CardPro\CardPro UI\CardPro.UI\obj\Debug\netcoreapp3.1\CardPro.UI.cspr
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\obj\Debug\netcoreapp3.1\CardPro.UI.MvcApplicationPartsAssemblyInfo.cache
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\obj\Debug\netcoreapp3.1\CardPro.UI.RazorAssemblyInfo.cache
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\obj\Debug\netcoreapp3.1\CardPro.UI.RazorAssemblyInfo.cs
-E:\CardPro\CardPro\CardPro UI\CardPro.UI\obj\Debug\netcoreapp3.1\CardPro.UI.TagHelpers.input.cache
-E:\CardPro\CardPro\CardPro UI\CardPro.UI\obj\Debug\netcoreapp3.1\CardPro.UI.TagHelpers.output.cache
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\obj\Debug\netcoreapp3.1\CardPro.UI.RazorCoreGenerate.cache
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\obj\Debug\netcoreapp3.1\Razor\Views\Enquiry\CardType.cshtml.g.cs
 E:\CardPro\CardPro\CardPro UI\CardPro.UI\obj\Debug\netcoreapp3.1\Razor\Views\Enquiry\UserDetails.cshtml.g.cs

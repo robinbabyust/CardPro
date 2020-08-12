@@ -40,7 +40,7 @@ namespace CardPro.Tests
             IEnumerable<Bank> banks = EnquiryServiceHelper.GetBanks();
             IEnumerable<Criteria> criterias = EnquiryServiceHelper.GetValidCritireas();
             List<CardType> cardTypes = EnquiryServiceHelper.GetCardTypes();
-            _criteriaRepository.Setup(x => x.GetCriterias()).Returns(Task.FromResult(criterias));
+            _criteriaRepository.Setup(x => x.GetCriterias(It.IsAny<User>())).Returns(Task.FromResult(criterias));
             _cardTypeRepository.Setup(x => x.GetCardTypes(It.IsAny<Criteria>())).Returns(Task.FromResult(cardTypes));
             _userRepository.Setup(x => x.SaveUser(It.IsAny<User>())).Returns(Task.FromResult(true));
             _bankRepository.Setup(x => x.GetBanks()).Returns(Task.FromResult(banks));

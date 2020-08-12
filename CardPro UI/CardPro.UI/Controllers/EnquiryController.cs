@@ -49,7 +49,7 @@ namespace CardPro.UI.Controllers
         /// <returns></returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> UserDetails(EnquiryViewModel enquiryViewModel)
+        public async Task<ActionResult> UserDetails(UserDetailsViewModel enquiryViewModel)
         {
             try
             {
