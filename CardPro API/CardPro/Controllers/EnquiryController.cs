@@ -34,7 +34,7 @@ namespace CardPro.Controllers
             catch(Exception ex)
             {
                 // Log error details
-                throw new Exception("Error processing request. Please try again.");
+                throw new Exception("Error processing request. Please try again.",ex);
             }
         }
     }

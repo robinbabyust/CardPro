@@ -1,4 +1,5 @@
-﻿using CardPro.Data.Entities;
+﻿using CardPro.Business.Responses;
+using CardPro.Data.Entities;
 using System.Collections.Generic;
 
 namespace CardPro.Tests.Helpers
@@ -89,6 +90,31 @@ namespace CardPro.Tests.Helpers
                     Id=2,
                     Country="United Kingdom",
                     Name="HSBC"
+                }
+            };
+        }
+
+        public static List<CardTypeResponse> GetCardTypeResponses()
+        {
+            return new List<CardTypeResponse>()
+            {
+                new CardTypeResponse()
+                {
+                    BankName = "Barclays",
+                    CardCategory = "Barclayscard",
+                    CashLimit = 7000,
+                    CreditLimit = 10000,
+                    CardTypeName = "Barclays plus",
+                    Image = "http://ss.img"
+                },
+                new CardTypeResponse()
+                {
+                    BankName = "Vanquis",
+                    CardCategory = "Vanquiscard",
+                    CashLimit = 7000,
+                    CreditLimit = 10000,
+                    CardTypeName = "Vanquis luma",
+                    Image = "http://van.img"
                 }
             };
         }

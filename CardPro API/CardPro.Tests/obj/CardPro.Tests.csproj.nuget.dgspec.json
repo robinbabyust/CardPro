@@ -159,6 +159,9 @@
             "projectReferences": {
               "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\CardPro.Business.csproj": {
                 "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\CardPro.Business.csproj"
+              },
+              "E:\\CardPro\\CardPro\\CardPro API\\CardPro\\CardPro.csproj": {
+                "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro\\CardPro.csproj"
               }
             }
           }
@@ -172,6 +175,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.7.0, )"
@@ -206,6 +217,83 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CardPro\\CardPro\\CardPro API\\CardPro\\CardPro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CardPro\\CardPro\\CardPro API\\CardPro\\CardPro.csproj",
+        "projectName": "CardPro",
+        "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro\\CardPro.csproj",
+        "packagesPath": "C:\\Users\\bibin joy\\.nuget\\packages\\",
+        "outputPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bibin joy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\CardPro.Business.csproj": {
+                "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Business\\CardPro.Business.csproj"
+              },
+              "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Data\\CardPro.Data.csproj": {
+                "projectPath": "E:\\CardPro\\CardPro\\CardPro API\\CardPro.Data\\CardPro.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
