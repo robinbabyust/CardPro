@@ -1,4 +1,5 @@
 ﻿using CardPro.UI.Business.Commands;
+using CardPro.UI.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -46,6 +47,20 @@ namespace CardPro.UI.Tests.TestData
                     DateOfBirth=DateTime.Today.AddYears(-2),
                     FirstName="John",
                     LastName="Luis"
+                }
+            };
+        }
+
+        public static TheoryData<UserDetailsViewModel> CreateValidUserDetailsViewModel()
+        {
+            return new TheoryData<UserDetailsViewModel>()
+            {
+                new UserDetailsViewModel()
+                {
+                    AnnualIncome=0,
+                    DateOfBirth=DateTime.Today.AddYears(-20),
+                    FirstName="James",
+                    LastName="Anderson"                    
                 }
             };
         }
