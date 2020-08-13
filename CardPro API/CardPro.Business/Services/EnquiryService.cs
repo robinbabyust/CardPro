@@ -47,7 +47,7 @@ namespace CardPro.Business.Services
 
             foreach (Criteria criteria in criterias)
             {
-                 eligibleCardTypes = await _cardTypeRepository.GetCardTypes(criteria);
+                eligibleCardTypes = await _cardTypeRepository.GetCardTypes(criteria);
 
                 foreach (CardType cardType in eligibleCardTypes)
                 {

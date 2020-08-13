@@ -10,7 +10,7 @@ namespace CardPro.UI.Tests.Helpers
 {
     public static class HttpClientHelper
     {
-        public static Mock<IHttpClientFactory> SetHttpClientFactory(HttpStatusCode httpStatusCode,HttpContent content)
+        public static Mock<IHttpClientFactory> SetHttpClientFactory(HttpStatusCode httpStatusCode, HttpContent content)
         {
             Mock<IHttpClientFactory> mockFactory = new Mock<IHttpClientFactory>();
             Mock<HttpMessageHandler> mockHttpMessageHandler = new Mock<HttpMessageHandler>();

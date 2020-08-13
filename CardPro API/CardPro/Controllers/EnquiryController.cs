@@ -31,10 +31,10 @@ namespace CardPro.Controllers
 
                 return Ok(cardTypes);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 // Log error details
-                throw new Exception("Error processing request. Please try again.",ex);
+                throw new Exception("Error processing request. Please try again.", ex);
             }
         }
     }

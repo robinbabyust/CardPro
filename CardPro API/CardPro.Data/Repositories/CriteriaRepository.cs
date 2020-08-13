@@ -17,7 +17,6 @@ namespace CardPro.Data.Repositories
             _dbContext = dbContext;
         }
 
-
         /// <summary>
         /// Get all Criterias
         /// </summary>

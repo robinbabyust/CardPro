@@ -13,4 +13,4 @@ Steps to run applications
 4. Execute script 'Update-database'
 5. Open DB insertion script with projects
 6. Execute DB scripts
-7. Run CardPro and CardPro.UI
+7. Run CardPro and CardPro.UI (To run API separate- Provide header key 'Token' with value 'CarPro Validation Token')

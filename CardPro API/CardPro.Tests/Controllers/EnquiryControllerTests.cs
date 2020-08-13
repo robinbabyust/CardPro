@@ -5,10 +5,7 @@ using CardPro.Controllers;
 using CardPro.Tests.Fake;
 using CardPro.Tests.TestData;
 using Microsoft.AspNetCore.Mvc;
-using Moq;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace CardPro.Tests.Controllers
@@ -22,7 +19,6 @@ namespace CardPro.Tests.Controllers
         {
             _enquiryService = new EnquiryServiceFake();
             _enquiryController = new EnquiryController(_enquiryService);
-
         }
 
         [Theory]

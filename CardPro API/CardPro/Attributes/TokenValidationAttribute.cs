@@ -20,7 +20,7 @@ namespace CardPro.Attributes
                 }
             }
 
-            if(!isValidRequest)
+            if (!isValidRequest)
             {
                 context.HttpContext.Response.StatusCode = (int)HttpStatusCode.NotAcceptable;
             }

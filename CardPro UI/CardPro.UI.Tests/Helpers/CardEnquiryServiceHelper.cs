@@ -1,7 +1,5 @@
 ﻿using CardPro.UI.Business.Responses;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace CardPro.UI.Tests.Helpers
 {

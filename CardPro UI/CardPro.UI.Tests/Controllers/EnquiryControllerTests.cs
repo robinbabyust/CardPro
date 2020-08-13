@@ -1,5 +1,4 @@
 ﻿using CardPro.UI.Business.Interfaces;
-using CardPro.UI.Business.Responses;
 using CardPro.UI.Controllers;
 using CardPro.UI.Models;
 using CardPro.UI.Tests.Fake;
@@ -8,8 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Logging;
 using Moq;
-using System.Collections.Generic;
-using System.Reflection;
 using Xunit;
 
 namespace CardPro.UI.Tests.Controllers
@@ -25,13 +22,12 @@ namespace CardPro.UI.Tests.Controllers
             _logger = new Mock<ILogger<EnquiryController>>();
             _enquiryService = new CardEnquiryServiceFake();
             _enquiryController = new EnquiryController(_enquiryService, _logger.Object);
-
         }
 
         [Theory]
         [Trait("Category", "Positive Test")]
         [MemberData(nameof(CardEnquiryServiceTestData.CreateValidUserDetailsViewModel), MemberType = typeof(CardEnquiryServiceTestData))]
-        public void Post_OKResult(UserDetailsViewModel userDetails)
+        public void UserDetails_Post_OKResult(UserDetailsViewModel userDetails)
         {
             // Act
             var sut = _enquiryController.UserDetails(userDetails);
@@ -43,7 +39,7 @@ namespace CardPro.UI.Tests.Controllers
         [Theory]
         [Trait("Category", "Positive Test")]
         [MemberData(nameof(CardEnquiryServiceTestData.CreateValidUserDetailsViewModel), MemberType = typeof(CardEnquiryServiceTestData))]
-        public void Post_ReturnAllItems(UserDetailsViewModel userDetails)
+        public void UserDetails_Post_ReturnAllItems(UserDetailsViewModel userDetails)
         {
             // Act
             RedirectToActionResult sut = _enquiryController.UserDetails(userDetails).Result as RedirectToActionResult;
@@ -51,6 +47,17 @@ namespace CardPro.UI.Tests.Controllers
             // Assert
             RouteValueDictionary routeValues = Assert.IsType<RouteValueDictionary>(sut.RouteValues);
             Assert.Equal(5, routeValues.Count);
+        }
+
+        [Fact]
+        [Trait("Category", "Positive Test")]
+        public void UserDetails_Get_OKResult()
+        {
+            // Act
+            var sut = _enquiryController.UserDetails();
+
+            // Assert
+            Assert.IsType<ViewResult>(sut);
         }
     }
 }

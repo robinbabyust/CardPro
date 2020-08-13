@@ -30,7 +30,7 @@ namespace CardPro.UI.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            _logger.Log(LogLevel.Trace, "An error occured.",null);
+            _logger.Log(LogLevel.Trace, "An error occured.", null);
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }

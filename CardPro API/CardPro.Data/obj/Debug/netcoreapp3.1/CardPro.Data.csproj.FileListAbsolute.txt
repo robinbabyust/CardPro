@@ -20,3 +20,4 @@ E:\CardPro\CardPro\CardPro API\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data
 E:\CardPro\CardPro\CardPro API\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.dll
 E:\CardPro\CardPro\CardPro API\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.pdb
 E:\CardPro\CardPro\CardPro API\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.genruntimeconfig.cache
+E:\CardPro\CardPro\CardPro API\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.csprojAssemblyReference.cache

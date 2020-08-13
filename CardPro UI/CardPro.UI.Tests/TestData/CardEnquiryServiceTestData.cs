@@ -1,8 +1,6 @@
 ﻿using CardPro.UI.Business.Commands;
 using CardPro.UI.Models;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace CardPro.UI.Tests.TestData
@@ -60,7 +58,7 @@ namespace CardPro.UI.Tests.TestData
                     AnnualIncome=0,
                     DateOfBirth=DateTime.Today.AddYears(-20),
                     FirstName="James",
-                    LastName="Anderson"                    
+                    LastName="Anderson"
                 }
             };
         }
