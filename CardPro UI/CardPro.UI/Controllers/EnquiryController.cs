@@ -77,6 +77,7 @@ namespace CardPro.UI.Controllers
                 }
 
                 _logger.Log(LogLevel.Trace, "Successfully processed request", null);
+
                 return RedirectToAction(nameof(CardType), cardType);
             }
             catch (Exception ex)
