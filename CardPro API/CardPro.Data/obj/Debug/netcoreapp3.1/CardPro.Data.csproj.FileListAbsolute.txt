@@ -14,6 +14,7 @@ E:\CardPro\CardPro\CardPro API\CardPro.Data\bin\Debug\netcoreapp3.1\CardPro.Data
 E:\CardPro\CardPro\CardPro API\CardPro.Data\bin\Debug\netcoreapp3.1\CardPro.Data.runtimeconfig.dev.json
 E:\CardPro\CardPro\CardPro API\CardPro.Data\bin\Debug\netcoreapp3.1\CardPro.Data.dll
 E:\CardPro\CardPro\CardPro API\CardPro.Data\bin\Debug\netcoreapp3.1\CardPro.Data.pdb
+E:\CardPro\CardPro\CardPro API\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.csprojAssemblyReference.cache
 E:\CardPro\CardPro\CardPro API\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.AssemblyInfoInputs.cache
 E:\CardPro\CardPro\CardPro API\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.AssemblyInfo.cs
 E:\CardPro\CardPro\CardPro API\CardPro.Data\obj\Debug\netcoreapp3.1\CardPro.Data.csproj.CoreCompileInputs.cache
